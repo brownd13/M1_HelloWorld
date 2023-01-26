@@ -1,0 +1,13 @@
+<resources>
+    // TextView text
+    <string name="app_name">HelloWorld</string>
+    <string name="mainWelcome">Greetings Program!</string>
+    <string name="countText">Count:</string>
+    <string name="act02">Activity two</string>
+
+    // button text
+    <string name="incr">Increment</string>
+    <string name="total">Show total via toast</string>
+    <string name="next">Next page</string>
+    <string name="home">Home</string>
+</resources>
