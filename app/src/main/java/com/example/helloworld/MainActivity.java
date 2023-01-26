@@ -23,13 +23,14 @@ public class MainActivity extends AppCompatActivity {
         TextView textView = (TextView) findViewById(R.id.countDisplay);
         textView.setText(getString(R.string.countText) + " " + counter);
     }
-
     public void nextPage(View view){
         setContentView(R.layout.activity_second);
     }
 
     public void activityMain(View view){
         setContentView(R.layout.activity_main);
+        TextView textView = (TextView) findViewById(R.id.countDisplay);
+        textView.setText(getString(R.string.countText) + " " + counter);
     }
     
     public void totalToast(View view) {
